@@ -23,6 +23,10 @@
           'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-WQHSTPM');</script>
   <!-- End Google Tag Manager -->
+  <!-- Shaka Player compiled library: -->
+  <script src="dist/shaka-player.compiled.js"></script>
+  <!-- Your application source: -->
+  <script src="myapp.js"></script>
 </head>
 
 <body>
@@ -34,6 +38,7 @@
   <iframe width="560" height="315" src="https://www.youtube.com/embed/eaPGqqQra68" title="YouTube video player"
     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen></iframe>
+  <video id="video" width="640" controls autoplay></video>
 </body>
 
 </html>
