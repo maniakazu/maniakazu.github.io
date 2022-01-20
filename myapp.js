@@ -4,7 +4,8 @@ const manifestUri =
     //'http://localhost:80/shaka/sample/output.mpd';
     //'file://C:/Users/soeta.k/shaka/sample/output.mpd';
     // 'https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd';
-    'http://rdmedia.bbc.co.uk/dash/ondemand/bbb/2/client_manifest-common_init.mpd';
+    // 'http://rdmedia.bbc.co.uk/dash/ondemand/bbb/2/client_manifest-common_init.mpd';
+    'https://bitmovin-a.akamaihd.net/content/MI201109210084_1/mpds/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.mpd';
 
     function initApp() {
   // Install built-in polyfills to patch browser incompatibilities.
